@@ -1,0 +1,2 @@
+INSERT INTO PERSON(first_Name,last_Name,age,fav_Color,hobby) values('John','Jerry',30,'Red','read');
+INSERT INTO PERSON(first_Name,last_Name,age,fav_Color,hobby) values('Sarah','Robinson',54,'Blue','write');
