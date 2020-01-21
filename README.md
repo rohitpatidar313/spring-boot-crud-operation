@@ -21,8 +21,9 @@ Below technology stack is used in this application
 4)  Swagger2 : 2.9.3
 5)  Spring Actuator : 2.2.3
 6)  Spring Security : 2.2.3
-7)  Maven : 3.x.x
-8)  GIT
+7)  Spring JPA : 2.2.4
+8)  Maven : 3.x.x
+9)  GIT
 
 
 ## Infrastructure
@@ -89,7 +90,18 @@ Code Base Setup:
 
 ## Try Demo
 1) Go to link : http://springcrud-env.mjpt9zqb4h.us-east-2.elasticbeanstalk.com/swagger-ui.html
-2) Expnad "person-rest"
+2) Expand "person-rest"
 3) Open any API and click "Try it out".
 4) Fill the required fields and "Execute".
-5) Enjoy the reponse.
+5) Enjoy the response.
+
+**Product Health Endpoints**
+1) Go to link : http://springcrud-env.mjpt9zqb4h.us-east-2.elasticbeanstalk.com/actuator
+2) Exposed 14 endpoints to monitor product health beneath base path '/actuator'.
+3) Few endpoint are /auditevents, /caches, /health, /metrics, /shutdown.
+Note: Product health check requires admin access.
+
+**User Access Info**
+1) Username:user, Password:user --> Role: Read Only
+2) Username:admin, Password:admin --> Role: Read Write
+3) Username:superadmin, Password:superadmin --> Role: Truncate table

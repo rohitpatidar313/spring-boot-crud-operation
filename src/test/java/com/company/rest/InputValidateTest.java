@@ -15,21 +15,21 @@ public class InputValidateTest {
 
     @Test
     public void testInputInvalidAge(){
-        assertEquals(inputValidator.inValidInput(0,"Terry"),true);
+        assertEquals(inputValidator.inValidInput(0,"Terry","Perry"),true);
     }
 
     @Test
     public void testInputValidAge(){
-        assertEquals(inputValidator.inValidInput(10,"Terry"),false);
+        assertEquals(inputValidator.inValidInput(10,"Terry","Cherry"),false);
     }
 
     @Test
     public void testInputValidFirstName(){
-        assertEquals(inputValidator.inValidInput(10,"Terry"),false);
+        assertEquals(inputValidator.inValidInput(10,"Terry","Derry"),false);
     }
 
     @Test
     public void testInputInValidFirstName(){
-        assertEquals(inputValidator.inValidInput(20,null),true);
+        assertEquals(inputValidator.inValidInput(20,null,null),true);
     }
 }

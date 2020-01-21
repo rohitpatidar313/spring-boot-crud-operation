@@ -29,7 +29,8 @@ public class CrudApplication{
     private ApiInfo apiInfo(){
         return new ApiInfo(
                 "Spring REST APIs",
-                "API to demonstrate CRUD operations.",
+                "REST APIs to demonstrate CRUD operations. User access is required.\n ****Confidential**** Just for demo purpose user credentials provided as, user:user, admin:admin & superadmin:superadmin.\n" +
+                        "For more detail please check readme in GIT repo.",
                 "API 1.1",
                 "Terms of service",
                 new Contact("CRUD", "www.crud.company.com", "crud@test.company.com"),
