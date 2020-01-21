@@ -16,10 +16,10 @@ REST APIs to demonstrate CRUD operations using Person object.
 ## Technology Stack
 Below technology stack is used in this application
 1)  Java : 1.8
-2)	Spring Boot: 2.2.3.RELEASE
-3)	H2 : 1.4.193
-4)	Swagger2 : 2.9.3
-5)	Spring Actuator : 2.2.3
+2)  Spring Boot: 2.2.3.RELEASE
+3)  H2 : 1.4.193
+4)  Swagger2 : 2.9.3
+5)  Spring Actuator : 2.2.3
 6)  Spring Security : 2.2.3
 7)  Maven : 3.x.x
 8)  GIT
@@ -77,14 +77,19 @@ AWS
     * Response HTTP code : 200 for Success
 
 ## Local setup
+Pre-requisite:
+1) Any IDE- IntelliJ/Eclipse etc.
+2) Java 8
+3) Maven 3.x.x
 
-1) Clone repository from : 
-2) Run maven clean install in Intellij/Eclipse.
+Code Base Setup:
+1) Clone repository: https://github.com/rohitpatidar313/spring-boot-crud-operation.git/
+2) Run maven clean install.
 3) Run application.
 
 ## Try Demo
 1) Go to link : http://springcrud-env.mjpt9zqb4h.us-east-2.elasticbeanstalk.com/swagger-ui.html
-2) Expnad person-rest
+2) Expnad "person-rest"
 3) Open any API and click "Try it out".
 4) Fill the required fields and "Execute".
 5) Enjoy the reponse.
